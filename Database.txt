@@ -13,6 +13,12 @@ student(Lucifer).
 student(Caroline).
 student(Harry).
 
+faculty(jose).
+faculty(nate).
+faculty(amanda).
+faculty(joshua).
+faculty(rivera).
+
 thours(ashish, 65).
 thours(shrill, 70). 
 thours(biebek, 68).
@@ -102,3 +108,14 @@ declined(Eve, yes).
 declined(Lucifer, no).
 declined(Caroline, no).
 declined(Harry, no).
+
+preMember(nate, yes).
+preMember(amanda, no).
+preMember(joshua, no).
+preMember(rivera, yes).
+
+years(jose, 15).
+years(nate, 0.75).
+years(amanda, 0.5).
+years(joshua, 20).
+years(rivera, 0.5).
