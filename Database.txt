@@ -19,6 +19,18 @@ faculty(amanda).
 faculty(joshua).
 faculty(rivera).
 
+eligibility(X) :- studentValidity(X) ; facultyValidity(X).
+
+studentValidity(X) :- student(X), checkHours(X), checkGrades(X), checkGpa(X), honesty(X, yes), declined(X, no).
+
+checkHours(X) :- (thours(X,Y), Y>=64), (cshours(X,Z), Z>=18).
+
+checkGrades(X) :- (csci3005(X,a); csci3005(X,b); csci3005(X,c)), (math1031(X,a); math1031(X,b); math1031(X,c)).
+
+checkGpa(X) :- (gpa(X,Y), Y>=3.0), (csGPA(X,Z), Z>=3.25). 
+
+facultyValidity(X) :- faculty(X), preMember(X,yes); (years(X,Y), Y>=1.0).
+
 thours(ashish, 65).
 thours(shrill, 70). 
 thours(biebek, 68).
