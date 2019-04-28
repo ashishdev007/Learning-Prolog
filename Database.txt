@@ -1,3 +1,18 @@
+student(Ashish).
+student(Shrill). 
+student(Biebek).
+student(Alex).
+student(James). 
+student(Ali).
+student(Daisy).
+student(Ram).
+student(David).
+student(Adam).
+student(Eve).
+student(Lucifer).
+student(Caroline).
+student(Harry).
+
 thours(ashish, 65).
 thours(shrill, 70). 
 thours(biebek, 68).
@@ -58,3 +73,32 @@ math1031(lucifer, b).
 math1031(caroline, c).
 math1031(harry, b).
 
+honesty(Ashish, yes).
+honesty(Shrill, yes). 
+honesty(Biebek, yes).
+honesty(Alex, yes).
+honesty(James, yes). 
+honesty(Ali, yes).
+honesty(Daisy, yes).
+honesty(Ram, yes).
+honesty(David, yes).
+honesty(Adam, yes).
+honesty(Eve, yes).
+honesty(Lucifer, no).
+honesty(Caroline, yes).
+honesty(Harry, no).
+
+declined(Ashish, no).
+declined(Shrill, no). 
+declined(Biebek, no).
+declined(Alex, no).
+declined(James, no). 
+declined(Ali, no).
+declined(Daisy, yes).
+declined(Ram, no).
+declined(David, no).
+declined(Adam, no).
+declined(Eve, yes).
+declined(Lucifer, no).
+declined(Caroline, no).
+declined(Harry, no).
