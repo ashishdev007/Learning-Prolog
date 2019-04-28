@@ -1,17 +1,17 @@
-student(Ashish).
-student(Shrill). 
-student(Biebek).
-student(Alex).
-student(James). 
-student(Ali).
-student(Daisy).
-student(Ram).
-student(David).
-student(Adam).
-student(Eve).
-student(Lucifer).
-student(Caroline).
-student(Harry).
+student(ashish).
+student(shrill). 
+student(biebek).
+student(alex).
+student(james). 
+student(ali).
+student(daisy).
+student(ram).
+student(david).
+student(adam).
+student(eve).
+student(lucifer).
+student(caroline).
+student(harry).
 
 faculty(jose).
 faculty(nate).
@@ -28,6 +28,7 @@ checkHours(X) :- (thours(X,Y), Y>=64), (cshours(X,Z), Z>=18).
 checkGrades(X) :- (csci3005(X,a); csci3005(X,b); csci3005(X,c)), (math1031(X,a); math1031(X,b); math1031(X,c)).
 
 checkGpa(X) :- (gpa(X,Y), Y>=3.0), (csGPA(X,Z), Z>=3.25). 
+
 
 facultyValidity(X) :- faculty(X), preMember(X,yes); (years(X,Y), Y>=1.0).
 
@@ -91,66 +92,67 @@ math1031(lucifer, b).
 math1031(caroline, c).
 math1031(harry, b).
 
-gpa(Ashish, 4.0).
-gpa(Shrill, 4.0). 
-gpa(Biebek, 2.9).
-gpa(Alex, 3.1).
-gpa(James, 3.2). 
-gpa(Ali, 3.3).
-gpa(Daisy, 3.8).
-gpa(Ram, 3.9).
-gpa(David, 3.1).
-gpa(Adam, 3.8).
-gpa(Eve, 3.0).
-gpa(Lucifer, 4.0).
-gpa(Caroline, 3.3).
-gpa(Harry, 3.6).
+gpa(ashish, 4.0).
+gpa(shrill, 4.0). 
+gpa(biebek, 2.9).
+gpa(alex, 3.1).
+gpa(james, 3.2). 
+gpa(ali, 3.3).
+gpa(daisy, 3.8).
+gpa(ram, 3.9).
+gpa(david, 3.1).
+gpa(adam, 3.8).
+gpa(eve, 3.0).
+gpa(lucifer, 4.0).
+gpa(caroline, 3.3).
+gpa(harry, 3.6).
 
-csGPA(Ashish, 4.0).
-csGPA(Shrill, 4.0). 
-csGPA(Biebek, 3.0).
-csGPA(Alex, 3.1).
-csGPA(James, 3.25). 
-csGPA(Ali, 3.3).
-csGPA(Daisy, 3.8).
-csGPA(Ram, 3.9).
-csGPA(David, 3.0).
-csGPA(Adam, 3.8).
-csGPA(Eve, 3.25).
-csGPA(Lucifer, 4.0).
-csGPA(Caroline, 3.3).
-csGPA(Harry, 3.6).
+csGPA(ashish, 4.0).
+csGPA(shrill, 4.0). 
+csGPA(biebek, 3.0).
+csGPA(alex, 3.1).
+csGPA(james, 3.25). 
+csGPA(ali, 3.3).
+csGPA(daisy, 3.8).
+csGPA(ram, 3.9).
+csGPA(david, 3.0).
+csGPA(adam, 3.8).
+csGPA(eve, 3.25).
+csGPA(lucifer, 4.0).
+csGPA(caroline, 3.3).
+csGPA(harry, 3.6).
 
-honesty(Ashish, yes).
-honesty(Shrill, yes). 
-honesty(Biebek, yes).
-honesty(Alex, yes).
-honesty(James, yes). 
-honesty(Ali, yes).
-honesty(Daisy, yes).
-honesty(Ram, yes).
-honesty(David, yes).
-honesty(Adam, yes).
-honesty(Eve, yes).
-honesty(Lucifer, no).
-honesty(Caroline, yes).
-honesty(Harry, no).
+honesty(ashish, yes).
+honesty(shrill, yes). 
+honesty(biebek, yes).
+honesty(alex, yes).
+honesty(james, yes). 
+honesty(ali, yes).
+honesty(daisy, yes).
+honesty(ram, yes).
+honesty(david, yes).
+honesty(adam, yes).
+honesty(eve, yes).
+honesty(lucifer, no).
+honesty(caroline, yes).
+honesty(harry, no).
 
-declined(Ashish, no).
-declined(Shrill, no). 
-declined(Biebek, no).
-declined(Alex, no).
-declined(James, no). 
-declined(Ali, no).
-declined(Daisy, yes).
-declined(Ram, no).
-declined(David, no).
-declined(Adam, no).
-declined(Eve, yes).
-declined(Lucifer, no).
-declined(Caroline, no).
-declined(Harry, no).
+declined(ashish, no).
+declined(shrill, no). 
+declined(biebek, no).
+declined(alex, no).
+declined(james, no). 
+declined(ali, no).
+declined(daisy, yes).
+declined(ram, no).
+declined(david, no).
+declined(adam, no).
+declined(eve, yes).
+declined(lucifer, no).
+declined(caroline, no).
+declined(harry, no).
 
+preMember(jose, yes).
 preMember(nate, yes).
 preMember(amanda, no).
 preMember(joshua, no).
