@@ -79,6 +79,36 @@ math1031(lucifer, b).
 math1031(caroline, c).
 math1031(harry, b).
 
+gpa(Ashish, 4.0).
+gpa(Shrill, 4.0). 
+gpa(Biebek, 2.9).
+gpa(Alex, 3.1).
+gpa(James, 3.2). 
+gpa(Ali, 3.3).
+gpa(Daisy, 3.8).
+gpa(Ram, 3.9).
+gpa(David, 3.1).
+gpa(Adam, 3.8).
+gpa(Eve, 3.0).
+gpa(Lucifer, 4.0).
+gpa(Caroline, 3.3).
+gpa(Harry, 3.6).
+
+csGPA(Ashish, 4.0).
+csGPA(Shrill, 4.0). 
+csGPA(Biebek, 3.0).
+csGPA(Alex, 3.1).
+csGPA(James, 3.25). 
+csGPA(Ali, 3.3).
+csGPA(Daisy, 3.8).
+csGPA(Ram, 3.9).
+csGPA(David, 3.0).
+csGPA(Adam, 3.8).
+csGPA(Eve, 3.25).
+csGPA(Lucifer, 4.0).
+csGPA(Caroline, 3.3).
+csGPA(Harry, 3.6).
+
 honesty(Ashish, yes).
 honesty(Shrill, yes). 
 honesty(Biebek, yes).
